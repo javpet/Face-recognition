@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(230, 226, 229);
+}
+
+.gallery-title {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 15vw;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(47, 79, 79);
+}
+
+.image-container {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: calc(25% - 8px);
+}
+
+img {
+    width: calc(100%);
+}
+
+.feature {
+    border: 3px solid rgb(255, 255, 255);
+    position: absolute;
+}
